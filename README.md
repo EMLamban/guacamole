@@ -23,12 +23,13 @@ el panel web con el cual trabaja la aplicación.
 
 
 Para desplegar la aplicación, tan solo hace falta crear y configurar
- el .env (como en el .env.example) y lanzar, primero, init-guac-db para
-crear el archivo .sql de la base de datos:
+ el .env (como en el .env.example) y crear los directorios
+data/postgres, conf/dbinit y conf/guacamole. Luego podemos desplegar, 
+primero, init-guac-db para crear el archivo .sql de la base de datos:
 	
 	docker-compose up -d init-guac-db
 
-Luego basta con levantar el docker-compose entero:
+Finalmente basta con levantar el docker-compose entero:
 
 	docker-compose up -d
 
@@ -62,6 +63,7 @@ modificando el docker-compose.yml en la linea ports después de web:
       - guacd
 
 +++++++++++++++++++
+***********************************************************************
 
 Este proyecto se ha creado a través de la recopilación de otros
 repositorios y de información gratuita sacada de internet; por lo cual
