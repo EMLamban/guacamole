@@ -37,6 +37,7 @@ Ya podréis acceder al panel de administración a través de http://localhost.
 El usuario por defecto es guacadmin y la contraseña guacadmin.
 
 Notas aclarativas:
+
 +++++++++++++++++++
 
 El servidor web usa el puerto 8080 por defecto, está redirigido al
