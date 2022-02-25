@@ -1,4 +1,0 @@
-auth-provider: net.sourceforge.guacamole.net.auth.ldap.LDAPAuthenticationProvider
-ldap-hostname: 192.168.2.51
-ldap-port: 389
-ldap-user-base-dn: OU=Informatica,OU=Interhanse,DC=INTERHANSE,DC=LOCAL
