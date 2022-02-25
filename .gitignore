@@ -1,3 +1,5 @@
 .env
 conf/dbinit/initdb.sql
 data/postgres/guacamole
+/conf/guacamole/guacamole.properties.example
+/conf/guacamole/ssh_know_hosts
