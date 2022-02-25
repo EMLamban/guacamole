@@ -32,6 +32,7 @@
       - "80:8080"
     volumes:
       - $PWD/conf/guacamole:/etc/guacamole
+      - $PWD/data/guacamole_shared:/opt/shared
     environment:
       GUACAMOLE_HOME: /etc/guacamole
       GUACD_HOSTNAME: guacd
