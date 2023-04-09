@@ -42,6 +42,7 @@ El servidor web usa el puerto 8080 por defecto, está redirigido al
 puerto 80 pero si lo tenéis ocupado podéis cambiarlo por el que queráis
 modificando el docker-compose.yml en la linea ports después de web:
 
+```
   web:
     image: guacamole/guacamole
     container_name: guacamole-web
@@ -60,6 +61,7 @@ modificando el docker-compose.yml en la linea ports después de web:
     depends_on:
       - postgres
       - guacd
+```
 
 +++++++++++++++++++
 ***********************************************************************
