@@ -2,10 +2,8 @@ PROYECTO DE DESPLIEGUE CON DOCKER DE UN SERVIDOR DE CONEXIONES REMOTAS
 			APACHE GUACAMOLE
 ***********************************************************************
 
-Apache guacamole es un servidor de conexiones remotas que acepta los 
-protocolos VNC, RDP, y SSH entre otros. Es una software Open Source
-que he montado en producción en la empresa Pont Grup Correduría de
-Seguros S.L.
+Apache guacamole es un servidor de conexiones remotas Open Source que 
+acepta los protocolos VNC, RDP, y SSH entre otros. 
 
 El docker-compose.yml está compuesto de 4 máquinas:
 
@@ -19,7 +17,7 @@ establecer las conexiones remotas con los clientes.
 + guacamole-web: Es el servidor web Tomcat que se encarga de darnos
 el panel web con el cual trabaja la aplicación.
 
-+guacamole-db: un postgres que contendrá los datos de la aplicación.
++guacamole-db: una bb.dd. postgres que contendrá los datos de la aplicación.
 
 
 Para desplegar la aplicación, tan solo hace falta crear y configurar
